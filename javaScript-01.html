@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javaScript 学习01</title>        
+        <script src="javaScript-01.js"></script>
+    </head>
+    <body>
+        <p>学习时间: 2019-10-22</p>
+        <p>1. javaScript的初尝试</p>
+        <button type="button" onclick="alert('欢迎')" >点击</button>
+        <p>2. 改变标签的内容及样式</p>
+        <p id="demo">你好, 世界</p>
+        <button type="button" onclick="changeFunction()">点击一下</button>
+        <p>3. 校验数字</p>
+        <input type="text" placeholder="请输入一个数字" id="number" >
+        <button type="button" onclick="verifyNumber()">点击校验</button>
+        <p>4. javaScript的数据输出方式</p>
+        <ol style="list-style-type: circle">
+            <li>使用window.alert()弹出警告框</li>
+            <li>使用document.wirte()方法写入html文档中</li>
+            <li>使用innerHTML写入html元素中</li>
+            <li>使用console.log()写入浏览器的控制台中</li>
+        </ol>
+        <p>5. javaScript的数据类型</p>
+        <div style="border: 1px solid antiquewhite">
+                JavaScript 有多种数据类型：数字，字符串，数组，对象等等：<br>
+                var length = 16;                                  // Number 通过数字字面量赋值 <br>
+                var points = x * 10;                              // Number 通过表达式字面量赋值<br>
+                var lastName = "Johnson";                         // String 通过字符串字面量赋值<br>
+                var cars = ["Saab", "Volvo", "BMW"];              // Array  通过数组字面量赋值<br>
+                var person = {firstName:"John", lastName:"Doe"};  // Object 通过对象字面量赋值<br>
+        </div>
+        <p id="a"></p>
+        <script>
+            document.getElementById('a').innerHTML = 16 + 'hahah';
+        </script>
+    </body>
+</html>

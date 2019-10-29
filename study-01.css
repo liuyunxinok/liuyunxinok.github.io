@@ -1,0 +1,104 @@
+/*
+    1em = 16px
+    1em = 12pt
+    12px = 9pt
+    1pt = 1.33px
+
+    1）、推荐px像素为单位：通常我们使用px（像素为单位）较多，其次是em单位，平时推荐大家以px为单位；
+    2）、我们的显示屏分辨率以px像素为单位；
+    3）、我们QQ截图时候也是以px像素单位。
+
+*/
+
+
+body {
+    background-color:#b0c4de;
+    /* background-image:url(logo.png); */
+    text-align: justify;
+}
+
+dl {
+    width: 100%;
+    /* list-style-type: none; */
+}
+
+ul {
+    background-color: bisque;
+    list-style-type: none;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    height: 100%;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 16px;
+    text-align: left;
+    padding: 6px 20px;
+    display: block;
+}
+
+li {
+    border-bottom: 1px solid black;
+}
+
+
+img {
+    float: right;
+}
+
+
+dd {
+    text-align: center;
+}
+
+dt {
+    float: left;
+    border-color: blue;
+    border-width: 2px;
+}
+
+p {
+    /* text-align: center; */
+    font-size: 2em;
+    text-indent: 2em;
+    background-color: brown;
+    text-align: left;
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 10px; */
+    /* word-spacing: 40px; */
+    /* font-style: italic; */
+    /* font-style: normal; */
+    /* font-weight: bold; */
+    /* visibility: hidden; */
+    /* display: none;     */
+}
+
+h1 {
+    text-align: center;
+    /* color: blue; */
+    font-size: 12pt
+    
+}
+
+a:link {color:#000000;}      /* 未访问链接*/
+a:visited {color:green;}  /* 已访问链接 */
+a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
+a:active {color:#0000FF;}  /* 鼠标点击时 */
+
+nav {
+    padding-left: 10%;
+}
+
+div {
+    width: 10%;
+    height: 40px;
+}
+
+#param1 {
+    color: aqua;
+}
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javaScript 02 数据类型和语法学习</title>
+        <script src="javaScript-02.js"></script>
+        <style>
+            ul {
+                list-style-type: none;
+                border: 1px solid black;
+                width: 300px;
+                margin: 0;
+                padding: 0;
+            }
+            span{
+                padding: 2px;
+                border: 1px solid black;
+            }
+            
+            li {
+                border-bottom: 1px solid black;
+                margin: 0;
+                padding: 5px;
+            }
+
+            li:last-child {
+               border-bottom: none;  
+            }
+            
+            button {
+                margin-left: 15px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <p>学习时间: 2019-10-23</p>
+        <p>1. 定义一个对象</p>
+        <button type="button" onclick="createObject()"></button>
+        <p>2. 简单计算器</p>
+        <ul>
+            <li>
+                <span>第一个数:</span>
+                <input type="text" name="" id="firstNumber" value="">
+            </li>
+            <li>
+                <span>第二个数:</span>
+                <input type="text" name="" id="secondNumber" value="">
+            </li>
+            <li>
+                <button type="button" onclick="caculateAdd()" >+</button>
+                <button type="button" onclick="caculateSub()" >-</button>
+                <button type="button" onclick="caculateMulti()" >*</button>
+                <button type="button" onclick="caculateDivision()" >/</button>
+            </li>
+            <li>
+                <input type="text" value="" id="result">
+            </li>
+        </ul>
+        <p>3. 全选</p>
+        看书:<input type="checkbox" name="checkbox"  value=1><br>
+        打球:<input type="checkbox" name="checkbox" value=2><br>
+        打游戏:<input type="checkbox" name="checkbox" value=3><br>
+        <button type="button" onclick="selectAll(true)" >全选</button>
+        <button type="button" onclick="selectAll(false)">取消全选</button>
+        
+    </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>overFlow 流式布局学习</title>
+        <style>
+            #overflowTest {
+                background-color: aqua;
+                overflow: auto;
+                border: 1px solid red;
+                width: 200px;
+                height: 100px;
+            }
+
+            #floatTest {
+                float: left;
+            }
+
+            .img1 {
+                width: 100px;
+                height: 100px;
+                margin: auto;
+            }
+
+            .img2 {
+                width: 78px;
+                height: 30px;
+                margin: auto;
+            }
+
+            .img3 {
+                width: 140px;
+                height: 160px;
+                margin: auto;
+            }
+
+            div {
+                /* margin: auto; */
+                position: relative;
+            }
+
+            p {
+                text-align: center;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <p>流式布局</p>
+        <div id="overflowTest">
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+            <p>这是一个流式布局</p>
+        </div>
+        <p>float 浮动在图片展示的应用</p>
+        <div id="floatTest">
+            <img class="img1" src="logo.png" alt="">
+            <img class="img2" src="logo.png" alt="">
+            <img class="img3" src="logo.png" alt="">
+            <img class="img2" src="logo.png" alt="">
+            <img class="img1" src="logo.png" alt="">
+            <img class="img3" src="logo.png" alt="">
+            <img class="img1" src="logo.png" alt="">
+            <img class="img2" src="logo.png" alt="">
+            <img class="img1" src="logo.png" alt="">
+            <img class="img3" src="logo.png" alt="">
+            <img class="img1" src="logo.png" alt="">
+            <img class="img3" src="logo.png" alt="">
+            <img class="img2" src="logo.png" alt="">
+        </div>
+        <p style="clear: both">观察文本的变化</p>
+
+    </body>
+</html>
