@@ -1,0 +1,54 @@
+body {
+    background-color: antiquewhite;
+}
+
+.aTitle {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    height: 40px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.aButton {
+    margin-left: 20px;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    background: olivedrab;
+    font-size: 15px;
+    color: white;
+    border:1px solid white;
+}
+
+ul {
+    list-style: none;
+    background-color:rgba(95, 141, 131, 0.7);
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+li {
+    padding: 20px;
+   border-bottom: 1px solid black; 
+}
+
+
+.spanTitle {
+    font-size: 25px;
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.spanContent {
+    font-size: 16px;
+    color: #333333;
+    text-indent: 2px;
+    line-height: 30px;
+}
