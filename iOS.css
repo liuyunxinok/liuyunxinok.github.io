@@ -1,5 +1,6 @@
 body {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-color:rgba(95, 141, 131, 0.7);
 }
 
 .aTitle {
@@ -40,7 +41,7 @@ li {
 
 
 .spanTitle {
-    font-size: 25px;
+    font-size: 22px;
     color: black;
     display: block;
     text-decoration: none;
