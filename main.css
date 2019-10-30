@@ -14,7 +14,7 @@
 body {
     background-image:url(bg.jpg);
     background-repeat: repeat-x;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
 }
 
@@ -75,8 +75,8 @@ a:active {
 }  /* 鼠标点击时 */
 
 .divLarge {
-    width: 50%;
-    height: 350px;
+    width: 60%;
+    height: 23em;
     margin: auto;
     margin-top: 10%;
     background-color:rgba(0,0,0,0.5);

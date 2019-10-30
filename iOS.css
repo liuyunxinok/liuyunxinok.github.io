@@ -27,16 +27,17 @@ body {
 ul {
     list-style: none;
     background-color:rgba(95, 141, 131, 0.7);
-    width: 95%;
+    /* width: 95%; */
     margin-top: 20px;
     margin-left: 2.5%;
+    margin-right: 2.5%;
     padding: 10px;
-    border: 1px solid #555;
-    border-radius: 5px;
+    /* border: 1px solid #555; */
+    /* border-radius: 5px; */
 }
 li {
     padding: 20px;
-   border-bottom: 1px solid black; 
+   border-bottom: 3px solid rgba(95, 141, 131, 0.7); 
 }
 
 
