@@ -14,7 +14,10 @@ body {
 }
 
 .aButton {
-    margin-left: 20px;
+    display: block;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
     width: 80px;
     height: 25px;
     border-radius: 5px;
@@ -38,6 +41,7 @@ ul {
 li {
     padding: 20px;
    border-bottom: 3px solid rgba(95, 141, 131, 0.7); 
+   position: relative;
 }
 
 
